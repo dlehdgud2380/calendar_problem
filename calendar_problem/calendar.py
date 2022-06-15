@@ -110,4 +110,5 @@ def count_first_day_of_month(start_year: int, end_year: int, weekday: str, echo:
     return count
     
 if __name__ == "__main__":
-    count_first_day_of_month(1901, 2000, "sunday", True)
+    # count_first_day_of_month(1901, 2000, "sunday", True)
+    count_first_day_of_month(1901, 2000, "sunday")

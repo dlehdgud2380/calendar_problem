@@ -78,7 +78,7 @@ def count_first_day_of_month(start_year: int, end_year: int, weekday: str, echo:
     
     # check arg logic
     if weekday not in WEEKSTART and bool(weekday) is False: 
-        print("Please Input Correct Data -> ex: if you want input january type 'jan'")
+        print("Please Input Correct Data -> ex: if you want input january, input 1")
         sys.exit()
     else:
         pass
@@ -111,4 +111,5 @@ def count_first_day_of_month(start_year: int, end_year: int, weekday: str, echo:
     
 if __name__ == "__main__":
     # count_first_day_of_month(1901, 2000, "sunday", True)
-    count_first_day_of_month(1901, 2000, "sunday")
+    count_sunday_of_1st_of_month = count_first_day_of_month(1901, 2000, "sunday")
+    print(count_sunday_of_1st_of_month)

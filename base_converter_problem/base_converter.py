@@ -45,7 +45,7 @@ class Transformer:
         return result
     
 def unittest(transformer: Transformer, answer1: int, answer2: str):
-    """unittest module for _convert function from Transformer class
+    """Unittest module for _convert function from Transformer class
 
     Args:
         transformer (Transformer): Transformer Object

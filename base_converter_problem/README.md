@@ -8,5 +8,5 @@
 ### excute: passive method
 1. Open base_converter.py
 2. Comment unittest line
-3. Comment disable class method line
+3. Disable comment disable class method line
 4. python3 base_converter.py

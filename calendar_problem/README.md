@@ -5,7 +5,7 @@
 ## Logic Info
 * Leap Year calculate logic.
 * Calculate specific weekday for first of the month from start of year and end of year.
-* You can see process working from echo enable/
+* You can see process working from echo enable
 ## Getting Started
 ### excute
 1. python3 calendar.py
